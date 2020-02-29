@@ -1,0 +1,95 @@
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    background-color: rgb(165, 202, 202);
+    font-family:  Georgia, sans-serif, 'Arial ', sans-serif;
+    font-size: 30px;
+    font-weight: 100;;
+}
+
+.collapse navbar-collapse{
+    background-color: rgb(195, 228, 228);
+}
+
+
+h1{color: rgb(96, 156, 149);
+    
+    margin-bottom:50px;
+    width:414px;
+  }
+
+h2{
+    color: rgb(96, 156, 149);
+}
+h3{
+    color: rgb(96, 156, 149);
+}
+
+.row row-grid{
+    margin-left: 0%;
+}
+.col-lg-12{
+      background-color: rgb(195, 228, 228)
+  }
+.container{
+    background-color: rgb(240, 248, 248)
+  }
+
+p{
+    font-size: 15px;
+    font-family:  'Arial ', sans-serif;
+    color: black;
+    text-align: left;
+    margin-right:34px;
+    margin-left:30px;
+  }
+
+#landing-viz{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 10px 10px 10%;
+}
+#temp-sample{
+
+  background-color: white;
+  width: 90%;
+  margin-left: 5px;
+  margin-right: 5px;
+  align-content: right;
+}
+
+#viz-main {
+    padding: 25px 40px 30px 40px;
+    width: 100%;
+   }
+   .card{
+    margin: 5px 5px 5px 5%;;
+}
+.contact-section-my-5{
+    margin:0px,0px,0px,0px;
+}
+
+.align-self-center{
+     align-self: right;    
+  }
+  
+  @media (min-width: 1200px) {
+      .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
+          margin-top: 0;
+      }
+  }
+  @media (min-width: 992px) {
+      .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
+          margin-top: 0;
+      }
+  }
+  @media (min-width: 768px) {
+      .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
+          margin-top: 0;
+      }
+  }
+  @media (min-width: 768px) {
+    .row.row-grid [class*="col-xs-"] + [class*="col-xs-"] {
+        margin-top: 0;
+    }
+  }

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Weather Analysis</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+            integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+       
+    </head>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="HomePage.html">Latitude... / Home </a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                        aria-expanded="false">Plots <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="MaxTemp.html">Max Temperature </a></li>
+                        <li><a href="Humidity.html">Humidity </a></li>
+                        <li><a href="Cloudiness.html">Cloudiness </a></li>
+                        <li><a href="windSpeed.html">Wind Speed </a></li>
+                    </ul>
+                </li>
+                <li><a href="Comparison.html">Comparison</a></li>
+                <li><a href="Data.html">Data</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <body>
+
+        <div class="container">
+            <div class="row row-grid">
+                <div class="col-md-8">
+                    <div class="box box-left">
+                        <section id="intro">
+                            <h1>Latitude vs Cloudiness</h1>
+                            <hr>
+                            <figure>
+                                <a target="_blank" href="Instructions/Resources/assets/images/Fig3.png">
+                                    <img id="temp-sample" src="Instructions/Resources/assets/images/Fig3.png" alt="Latitude vs. Humidity" height="400" width="600">
+                                </a>
+                            </figure>
+
+                            <section id="summary">
+
+                                <hr>
+                                <p>This graph represents cloudiness (%) with varying latitude. The graph shows
+                                   that there is not any correlation between cloudiness and latitude. If somebody is traveling to a specific
+                                   latitude, there is a likely chance it may or may not be cloudy.
+                                </p>
+                                
+                             
+                            </section>
+                        </div>
+                    </div>   
+      <div class="col-md-4">
+                                <div class="box box-right">
+                                <h2>Visualizations</h2>
+                                <hr>
+                               <div class="row">
+                                     <div class="col-xs-6 col-sm-3 col-md-6">
+                                      <figure>
+                                         <a href="MaxTemp.html">
+                                            <img id="landing-viz" src="Instructions/Resources/assets/images/Fig1.png" alt="Latitude vs. Temperature" height="300" width="200" >
+                                        </a>
+                                    </figure>
+                                </div>
+            
+                                    <div class="col-xs-6 col-sm-3 col-md-6">
+                                        <figure>
+                                            <a href="Humidity.html">
+                                                <img id="landing-viz" src="Instructions/Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" height="300" width="200">
+                                            </a>
+                                        </figure>
+                                    </div>
+            
+                                    <div class="col-xs-6 col-sm-3 col-md-6">
+                                        <figure>
+                                            <a href="Cloudiness.html">
+                                                <img id="landing-viz" src="Instructions/Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" height="300" width="200">
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-6">
+                                        <figure>
+                                            <a href="windSpeed.html">
+                                                <img id="landing-viz" src="Instructions/Resources/assets/images/Fig4.png"  alt="Latitude vs. Wind Speed" height="300" width="200"> 
+                                            </a>
+                                        </figure>
+                                    </div>
+            
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+  <!--pagination-->
+  <div class="align-self-center">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="HomePage.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="Cloudiness.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="Humidity.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="MaxTemp.html">4</a></li>
+          <li class="page-item"><a class="page-link" href="windSpeed.html">5</a></li>
+          <li class="page-item"><a class="page-link" href="Comparison.html">6</a></li>
+          <li class="page-item"><a class="page-link" href="Data.html">7</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
