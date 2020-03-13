@@ -1,8 +1,10 @@
+
+https://crihan13na.github.io/
+
+
 # Web Design - Web Visualization Dashboard (Latitude)
  
-   https://crihan13na.github.io/
-
-## Latitude - Latitude Analysis Dashboard with Attitude
+  ## Latitude - Latitude Analysis Dashboard with Attitude
 
 I'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
 
